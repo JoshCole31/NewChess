@@ -176,14 +176,24 @@ public class GameManager : MonoBehaviour {
     }
 
    
-    /*//test 
+    /*//tests 
 	 * Test_rookking(){
 	 * roock1 p <king 
 	 * rook2 p >king 
-	 * 
+	}
+	Test_allPlaced(){
+	add a varealbe each time a peaces is placed
+	}
+	Test_gameStart960(){
+	check postions of peaces make sure it did randomize it 
+	}
+	Test_bishops(){
+	find one mark if on black or whit and then find other and compare should be different 
+	}
+	Test_Mirrored(){
+	complace each placers peaces and see if they are in the same spot 
 	}
 	//*/
-    // Add all pieces are their respective position
 
     public void AddPieces()
 	{
